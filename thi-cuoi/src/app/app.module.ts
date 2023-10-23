@@ -10,6 +10,8 @@ import { FooterComponent } from './component/footer/footer.component';
 import { HeaderComponent } from './component/header/header.component';
 import { LoHangListComponent } from './component/lohang/lo-hang-list/lo-hang-list.component';
 import { LoHangCreateComponent } from './component/lohang/lo-hang-create/lo-hang-create.component';
+import { ListComponent } from './component/module6/list/list.component';
+import { ListNewComponent } from './component/module6/list-new/list-new.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { LoHangCreateComponent } from './component/lohang/lo-hang-create/lo-hang
     FooterComponent,
     HeaderComponent,
     LoHangListComponent,
-    LoHangCreateComponent
+    LoHangCreateComponent,
+    ListComponent,
+    ListNewComponent
   ],
   imports: [
     BrowserModule,
